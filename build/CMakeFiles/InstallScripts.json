@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ZincR/Desktop/6.4400/Decimator/build/cmake_install.cmake",
+		"/Users/ZincR/Desktop/6.4400/Decimator/build/external/src/glfw-3.3.2/cmake_install.cmake",
+		"/Users/ZincR/Desktop/6.4400/Decimator/build/external/src/glfw-3.3.2/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
