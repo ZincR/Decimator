@@ -28,9 +28,6 @@ class VertexClustering {
   void SetGridResolution(int resolution) { grid_resolution_ = resolution; }
 
  private:
-  // TODO: Implement grid-based clustering
-  // TODO: Implement representative vertex selection
-  
   int grid_resolution_ = 16;  // Default grid resolution
 
   struct GridCell {
@@ -49,7 +46,6 @@ class VertexClustering {
     };
   };
 
-  // Helper methods (to be implemented)
   glm::vec3 ComputeBoundingBox(const SimplificationMesh& mesh, 
                                 glm::vec3& min_bounds, 
                                 glm::vec3& max_bounds) const;

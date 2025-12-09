@@ -40,7 +40,7 @@ SimplificationMesh SimplificationMesh::FromVertexObject(const VertexObject& vert
 }
 
 std::shared_ptr<VertexObject> SimplificationMesh::ToVertexObject() const {
-  // TODO: Convert SimplificationMesh to VertexObject for rendering
+  // Convert SimplificationMesh to VertexObject for rendering
   auto vertex_obj = std::make_shared<VertexObject>();
   
   // Create position buffer
@@ -72,7 +72,7 @@ std::shared_ptr<VertexObject> SimplificationMesh::ToVertexObject() const {
 }
 
 void SimplificationMesh::ComputeNormals() {
-  // TODO: Compute per-vertex normals from face data
+  // Compute per-vertex normals from face data
   normals.clear();
   normals.resize(vertices.size(), glm::vec3(0.0f));
   
@@ -100,7 +100,7 @@ void SimplificationMesh::ComputeNormals() {
 }
 
 bool SimplificationMesh::Validate() const {
-  // TODO: Check for degenerate faces, invalid indices, etc.
+  // Check for degenerate faces, invalid indices, etc.
   
   // Check if any face has duplicate vertices
   for (const auto& face : faces) {

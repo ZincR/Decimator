@@ -199,11 +199,11 @@ Decimator/
 
 ### Phase 1: Setup (Complete)
 
-✅ Project structure
-✅ Build system
-✅ Core application skeleton
-✅ UI framework
-✅ Key binding system
+Project structure
+Build system
+Core application skeleton
+UI framework
+Key binding system
 
 ### Phase 2: Simplification Algorithms (To Implement)
 
@@ -287,15 +287,10 @@ make
    - Then `VertexDecimation.cpp`
    - Finally `EdgeCollapse.cpp`
 
-2. Complete and connect the mesh selection pipeline:
+2. Complete MeshData conversion:
 
-   - Implement mouse-to-ray conversion in `HandleMouseSelection()`
-   - Complete ray-triangle intersection in `MeshSelection.cpp`
-   - Connect selection UI controls to actual functionality
-   - Implement `DeleteSelectedElements()` to remove selected vertices/edges
-   - Implement `SimplifySelectedRegion()` to apply algorithms to selected areas only
-   - Add visual highlighting for selected elements
-   - Polish the selection workflow (click to select, shift-click for multi-select, etc.)
+   - `FromVertexObject()` implementation
+   - Proper buffer extraction
 
 3. Test with simple meshes:
    - Cube, sphere, teapot

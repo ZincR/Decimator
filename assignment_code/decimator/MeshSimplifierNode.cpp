@@ -72,11 +72,14 @@ void MeshSimplifierNode::SimplifyWithCurrentMethod() {
           vertex_decimation_->SimplifyByFactor(*original_mesh_, target_reduction_);
       break;
     case SimplificationMethod::VERTEX_CLUSTERING:
+      // Use grid resolution directly for Vertex Clustering
       simplified_meshes_[method_idx] = 
-          vertex_clustering_->SimplifyByFactor(*original_mesh_, target_reduction_);
+          vertex_clustering_->Simplify(*original_mesh_, grid_resolution_);
       break;
   }
   
+  // Automatically switch to showing simplified mesh after simplification
+  show_original_ = false;
   UpdateMeshDisplay();
 }
 
@@ -89,9 +92,12 @@ void MeshSimplifierNode::SimplifyAllMethods() {
       edge_collapse_->SimplifyByFactor(*original_mesh_, target_reduction_);
   simplified_meshes_[1] = 
       vertex_decimation_->SimplifyByFactor(*original_mesh_, target_reduction_);
+  // Use grid resolution directly for Vertex Clustering
   simplified_meshes_[2] = 
-      vertex_clustering_->SimplifyByFactor(*original_mesh_, target_reduction_);
+      vertex_clustering_->Simplify(*original_mesh_, grid_resolution_);
   
+  // Automatically switch to showing simplified mesh after simplification
+  show_original_ = false;
   UpdateMeshDisplay();
 }
 
@@ -296,8 +302,16 @@ void MeshSimplifierNode::RenderMethodControls() {
     UpdateMeshDisplay();
   }
   
-  ImGui::SliderFloat("Target Reduction", &target_reduction_, 0.01f, 0.99f);
-  ImGui::Text("Keep %.1f%% of vertices", target_reduction_ * 100.0f);
+  // Show different controls based on selected method
+  if (current_method_ == SimplificationMethod::VERTEX_CLUSTERING) {
+    ImGui::SliderInt("Grid Resolution", &grid_resolution_, 2, 50);
+    ImGui::Text("Grid: %dx%dx%d = %d cells", 
+                grid_resolution_, grid_resolution_, grid_resolution_,
+                grid_resolution_ * grid_resolution_ * grid_resolution_);
+  } else {
+    ImGui::SliderFloat("Target Reduction", &target_reduction_, 0.01f, 0.99f);
+    ImGui::Text("Keep %.1f%% of vertices", target_reduction_ * 100.0f);
+  }
   
   if (ImGui::Button("Simplify Current Method (R)")) {
     SimplifyWithCurrentMethod();

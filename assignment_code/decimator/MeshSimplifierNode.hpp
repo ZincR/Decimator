@@ -42,6 +42,7 @@ class MeshSimplifierNode : public SceneNode {
   bool show_original_ = true;
   bool enable_selection_ = false;
   float target_reduction_ = 0.5f;
+  int grid_resolution_ = 10;  // For Vertex Clustering method
   
   // UI state
   glm::vec3 ui_pos_ = glm::vec3(0.0f);

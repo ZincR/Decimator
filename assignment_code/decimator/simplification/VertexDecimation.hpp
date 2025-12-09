@@ -9,7 +9,6 @@
 namespace GLOO {
 
 // Vertex Decimation using Schroeder-Zarge-Lorensen algorithm
-// Reference: "Decimation of Triangle Meshes" [SZL92]
 class VertexDecimation {
  public:
   VertexDecimation();
@@ -29,29 +28,29 @@ class VertexDecimation {
   void SetMaxDistance(float dist) { max_distance_ = dist; }
 
  private:
-  // TODO: Implement vertex classification
-  // TODO: Implement vertex removal and retriangulation
-  
-  float feature_angle_ = 60.0f;   // Feature angle threshold (degrees)
-  float aspect_ratio_ = 10.0f;    // Maximum aspect ratio for triangles
+  float feature_angle_ = 90.0f;   // Feature angle threshold (degrees)
+  float aspect_ratio_ = 20.0f;    // Maximum aspect ratio for triangles
   float max_distance_ = 0.1f;     // Maximum distance from vertex to average plane
 
   struct VertexInfo {
     int index;
     bool is_feature_vertex;
     bool is_boundary_vertex;
-    float distance_error;  // Distance to average plane of neighbors
+    float distance_error;
     std::vector<int> neighbor_vertices;
     std::vector<int> adjacent_faces;
   };
 
-  // Helper methods (to be implemented)
+  // Helper methods
   bool IsFeatureVertex(const SimplificationMesh& mesh, int vertex_index) const;
   bool IsBoundaryVertex(const SimplificationMesh& mesh, int vertex_index) const;
   float ComputeDistanceError(const SimplificationMesh& mesh, int vertex_index) const;
+  float ComputeTriangleAspectRatio(const glm::vec3& v0, const glm::vec3& v1, const glm::vec3& v2) const;
+  bool CheckResultingTrianglesAspectRatio(const SimplificationMesh& mesh, int vertex_index) const;
   void ClassifyVertices(const SimplificationMesh& mesh, 
                         std::vector<VertexInfo>& vertex_info);
-  bool CanRemoveVertex(const VertexInfo& info) const;
+  bool CanRemoveVertex(const SimplificationMesh& mesh, const VertexInfo& info) const;
+  std::vector<int> CollectBoundaryVertices(const SimplificationMesh& mesh, int vertex_index) const;
   void RemoveVertex(SimplificationMesh& mesh, int vertex_index);
   void RetriangulateHole(SimplificationMesh& mesh, 
                          const std::vector<int>& boundary_vertices);
