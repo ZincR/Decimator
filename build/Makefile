@@ -392,30 +392,6 @@ assignment_code/decimator/simplification/EdgeCollapse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.s
 .PHONY : assignment_code/decimator/simplification/EdgeCollapse.cpp.s
 
-assignment_code/decimator/simplification/MeshData.o: assignment_code/decimator/simplification/MeshData.cpp.o
-.PHONY : assignment_code/decimator/simplification/MeshData.o
-
-# target to build an object file
-assignment_code/decimator/simplification/MeshData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/MeshData.cpp.o
-.PHONY : assignment_code/decimator/simplification/MeshData.cpp.o
-
-assignment_code/decimator/simplification/MeshData.i: assignment_code/decimator/simplification/MeshData.cpp.i
-.PHONY : assignment_code/decimator/simplification/MeshData.i
-
-# target to preprocess a source file
-assignment_code/decimator/simplification/MeshData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/MeshData.cpp.i
-.PHONY : assignment_code/decimator/simplification/MeshData.cpp.i
-
-assignment_code/decimator/simplification/MeshData.s: assignment_code/decimator/simplification/MeshData.cpp.s
-.PHONY : assignment_code/decimator/simplification/MeshData.s
-
-# target to generate assembly for a file
-assignment_code/decimator/simplification/MeshData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/MeshData.cpp.s
-.PHONY : assignment_code/decimator/simplification/MeshData.cpp.s
-
 assignment_code/decimator/simplification/SimplificationMesh.o: assignment_code/decimator/simplification/SimplificationMesh.cpp.o
 .PHONY : assignment_code/decimator/simplification/SimplificationMesh.o
 
@@ -439,6 +415,30 @@ assignment_code/decimator/simplification/SimplificationMesh.s: assignment_code/d
 assignment_code/decimator/simplification/SimplificationMesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.s
 .PHONY : assignment_code/decimator/simplification/SimplificationMesh.cpp.s
+
+assignment_code/decimator/simplification/Triangulation.o: assignment_code/decimator/simplification/Triangulation.cpp.o
+.PHONY : assignment_code/decimator/simplification/Triangulation.o
+
+# target to build an object file
+assignment_code/decimator/simplification/Triangulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o
+.PHONY : assignment_code/decimator/simplification/Triangulation.cpp.o
+
+assignment_code/decimator/simplification/Triangulation.i: assignment_code/decimator/simplification/Triangulation.cpp.i
+.PHONY : assignment_code/decimator/simplification/Triangulation.i
+
+# target to preprocess a source file
+assignment_code/decimator/simplification/Triangulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.i
+.PHONY : assignment_code/decimator/simplification/Triangulation.cpp.i
+
+assignment_code/decimator/simplification/Triangulation.s: assignment_code/decimator/simplification/Triangulation.cpp.s
+.PHONY : assignment_code/decimator/simplification/Triangulation.s
+
+# target to generate assembly for a file
+assignment_code/decimator/simplification/Triangulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.s
+.PHONY : assignment_code/decimator/simplification/Triangulation.cpp.s
 
 assignment_code/decimator/simplification/VertexClustering.o: assignment_code/decimator/simplification/VertexClustering.cpp.o
 .PHONY : assignment_code/decimator/simplification/VertexClustering.o
@@ -1295,12 +1295,12 @@ help:
 	@echo "... assignment_code/decimator/simplification/EdgeCollapse.o"
 	@echo "... assignment_code/decimator/simplification/EdgeCollapse.i"
 	@echo "... assignment_code/decimator/simplification/EdgeCollapse.s"
-	@echo "... assignment_code/decimator/simplification/MeshData.o"
-	@echo "... assignment_code/decimator/simplification/MeshData.i"
-	@echo "... assignment_code/decimator/simplification/MeshData.s"
 	@echo "... assignment_code/decimator/simplification/SimplificationMesh.o"
 	@echo "... assignment_code/decimator/simplification/SimplificationMesh.i"
 	@echo "... assignment_code/decimator/simplification/SimplificationMesh.s"
+	@echo "... assignment_code/decimator/simplification/Triangulation.o"
+	@echo "... assignment_code/decimator/simplification/Triangulation.i"
+	@echo "... assignment_code/decimator/simplification/Triangulation.s"
 	@echo "... assignment_code/decimator/simplification/VertexClustering.o"
 	@echo "... assignment_code/decimator/simplification/VertexClustering.i"
 	@echo "... assignment_code/decimator/simplification/VertexClustering.s"
