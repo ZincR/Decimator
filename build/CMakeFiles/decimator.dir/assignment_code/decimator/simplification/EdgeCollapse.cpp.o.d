@@ -1161,4 +1161,14 @@ CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.c
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/matrix_inverse.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/../detail/setup.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/../matrix.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/../mat2x2.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/../mat3x3.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/../mat4x4.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/matrix_inverse.inl

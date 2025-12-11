@@ -1267,5 +1267,9 @@ CMakeFiles/decimator.dir/assignment_code/decimator/DecimatorApp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
   /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/WireframeRenderer.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/RegionSimplifier.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Users/ZincR/Desktop/6.4400/Decimator/gloo/components/MaterialComponent.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/gloo/Material.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/cameras/ArcBallCameraNode.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/lights/AmbientLight.hpp

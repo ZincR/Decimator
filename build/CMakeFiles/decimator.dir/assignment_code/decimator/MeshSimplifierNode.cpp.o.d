@@ -1258,21 +1258,74 @@ CMakeFiles/decimator.dir/assignment_code/decimator/MeshSimplifierNode.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
   /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/WireframeRenderer.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/RegionSimplifier.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Users/ZincR/Desktop/6.4400/Decimator/gloo/components/CameraComponent.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/gloo/components/MaterialComponent.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/gloo/Material.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/MeshIO.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/MeshLoader.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/parsers/ObjParser.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/MeshData.hpp \
-  /Users/ZincR/Desktop/6.4400/Decimator/gloo/Material.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/InputManager.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/shaders/SimpleShader.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/shaders/ShaderProgram.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/components/RenderingComponent.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/gloo/components/ShadingComponent.hpp \
-  /Users/ZincR/Desktop/6.4400/Decimator/gloo/components/MaterialComponent.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/gloo/Scene.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/euler_angles.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../glm.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/euler_angles.inl \
   /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/compatibility.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/quaternion.hpp \
   /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/compatibility.inl \
-  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/matrix_transform.hpp
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtc/matrix_transform.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/string_cast.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/type_precision.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/quaternion.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/vec1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_bool1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../detail/type_vec1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_bool1_precision.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_float1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_float1_precision.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_double1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_double1_precision.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_int1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_int1_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/vector_int1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/scalar_int_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_uint1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_uint1_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/vector_uint1.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/scalar_uint_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int1_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int2_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int3_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int4_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/scalar_int_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint1_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint2_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint3_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint4_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/scalar_uint_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_vec2.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_vec3.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_vec4.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat2x2.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat2x3.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat2x4.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat3x2.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat3x3.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat3x4.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat4x2.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat4x3.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat4x4.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtc/type_precision.inl \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtx/dual_quaternion.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtx/../glm.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtx/../gtc/constants.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtx/../gtc/quaternion.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtx/dual_quaternion.inl \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/../gtx/../geometric.hpp \
+  /Users/ZincR/Desktop/6.4400/Decimator/external/src/glm-0.9.9.8/glm/gtx/string_cast.inl

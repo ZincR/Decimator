@@ -590,10 +590,24 @@ CMakeFiles/decimator.dir/assignment_code/decimator/MeshSimplifierNode.cpp.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/decimator.dir/assignment_code/decimator/MeshSimplifierNode.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/MeshSimplifierNode.cpp -o CMakeFiles/decimator.dir/assignment_code/decimator/MeshSimplifierNode.cpp.s
 
+CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o: CMakeFiles/decimator.dir/flags.make
+CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o: /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/RegionSimplifier.cpp
+CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o: CMakeFiles/decimator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o -MF CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o.d -o CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o -c /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/RegionSimplifier.cpp
+
+CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/RegionSimplifier.cpp > CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.i
+
+CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/RegionSimplifier.cpp -o CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.s
+
 CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o: CMakeFiles/decimator.dir/flags.make
 CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o: /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/WireframeRenderer.cpp
 CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o: CMakeFiles/decimator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o -MF CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o.d -o CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o -c /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/WireframeRenderer.cpp
 
 CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.i: cmake_force
@@ -607,7 +621,7 @@ CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.s: cmak
 CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o: CMakeFiles/decimator.dir/flags.make
 CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o: /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/main.cpp
 CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o: CMakeFiles/decimator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o -MF CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o.d -o CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o -c /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/main.cpp
 
 CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.i: cmake_force
@@ -621,7 +635,7 @@ CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.s: cmake_force
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o: CMakeFiles/decimator.dir/flags.make
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o: /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/EdgeCollapse.cpp
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o: CMakeFiles/decimator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o -MF CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o.d -o CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o -c /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/EdgeCollapse.cpp
 
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.i: cmake_force
@@ -635,7 +649,7 @@ CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.c
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o: CMakeFiles/decimator.dir/flags.make
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o: /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/SimplificationMesh.cpp
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o: CMakeFiles/decimator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o -MF CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o.d -o CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o -c /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/SimplificationMesh.cpp
 
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.i: cmake_force
@@ -645,20 +659,6 @@ CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Simplification
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/SimplificationMesh.cpp -o CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.s
-
-CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o: CMakeFiles/decimator.dir/flags.make
-CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o: /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/Triangulation.cpp
-CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o: CMakeFiles/decimator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ZincR/Desktop/6.4400/Decimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o -MF CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o.d -o CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o -c /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/Triangulation.cpp
-
-CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/Triangulation.cpp > CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.i
-
-CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/Triangulation.cpp -o CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.s
 
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/VertexClustering.cpp.o: CMakeFiles/decimator.dir/flags.make
 CMakeFiles/decimator.dir/assignment_code/decimator/simplification/VertexClustering.cpp.o: /Users/ZincR/Desktop/6.4400/Decimator/assignment_code/decimator/simplification/VertexClustering.cpp
@@ -727,11 +727,11 @@ decimator_OBJECTS = \
 "CMakeFiles/decimator.dir/assignment_code/decimator/MeshIO.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/MeshSelection.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/MeshSimplifierNode.cpp.o" \
+"CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o" \
-"CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/simplification/VertexClustering.cpp.o" \
 "CMakeFiles/decimator.dir/assignment_code/decimator/simplification/VertexDecimation.cpp.o"
 
@@ -775,11 +775,11 @@ decimator: CMakeFiles/decimator.dir/assignment_code/decimator/DecimatorApp.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/MeshIO.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/MeshSelection.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/MeshSimplifierNode.cpp.o
+decimator: CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/WireframeRenderer.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/main.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/simplification/EdgeCollapse.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.o
-decimator: CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/simplification/VertexClustering.cpp.o
 decimator: CMakeFiles/decimator.dir/assignment_code/decimator/simplification/VertexDecimation.cpp.o
 decimator: CMakeFiles/decimator.dir/build.make

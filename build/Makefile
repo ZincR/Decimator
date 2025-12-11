@@ -320,6 +320,30 @@ assignment_code/decimator/MeshSimplifierNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/MeshSimplifierNode.cpp.s
 .PHONY : assignment_code/decimator/MeshSimplifierNode.cpp.s
 
+assignment_code/decimator/RegionSimplifier.o: assignment_code/decimator/RegionSimplifier.cpp.o
+.PHONY : assignment_code/decimator/RegionSimplifier.o
+
+# target to build an object file
+assignment_code/decimator/RegionSimplifier.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.o
+.PHONY : assignment_code/decimator/RegionSimplifier.cpp.o
+
+assignment_code/decimator/RegionSimplifier.i: assignment_code/decimator/RegionSimplifier.cpp.i
+.PHONY : assignment_code/decimator/RegionSimplifier.i
+
+# target to preprocess a source file
+assignment_code/decimator/RegionSimplifier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.i
+.PHONY : assignment_code/decimator/RegionSimplifier.cpp.i
+
+assignment_code/decimator/RegionSimplifier.s: assignment_code/decimator/RegionSimplifier.cpp.s
+.PHONY : assignment_code/decimator/RegionSimplifier.s
+
+# target to generate assembly for a file
+assignment_code/decimator/RegionSimplifier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/RegionSimplifier.cpp.s
+.PHONY : assignment_code/decimator/RegionSimplifier.cpp.s
+
 assignment_code/decimator/WireframeRenderer.o: assignment_code/decimator/WireframeRenderer.cpp.o
 .PHONY : assignment_code/decimator/WireframeRenderer.o
 
@@ -415,30 +439,6 @@ assignment_code/decimator/simplification/SimplificationMesh.s: assignment_code/d
 assignment_code/decimator/simplification/SimplificationMesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/SimplificationMesh.cpp.s
 .PHONY : assignment_code/decimator/simplification/SimplificationMesh.cpp.s
-
-assignment_code/decimator/simplification/Triangulation.o: assignment_code/decimator/simplification/Triangulation.cpp.o
-.PHONY : assignment_code/decimator/simplification/Triangulation.o
-
-# target to build an object file
-assignment_code/decimator/simplification/Triangulation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.o
-.PHONY : assignment_code/decimator/simplification/Triangulation.cpp.o
-
-assignment_code/decimator/simplification/Triangulation.i: assignment_code/decimator/simplification/Triangulation.cpp.i
-.PHONY : assignment_code/decimator/simplification/Triangulation.i
-
-# target to preprocess a source file
-assignment_code/decimator/simplification/Triangulation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.i
-.PHONY : assignment_code/decimator/simplification/Triangulation.cpp.i
-
-assignment_code/decimator/simplification/Triangulation.s: assignment_code/decimator/simplification/Triangulation.cpp.s
-.PHONY : assignment_code/decimator/simplification/Triangulation.s
-
-# target to generate assembly for a file
-assignment_code/decimator/simplification/Triangulation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/decimator.dir/build.make CMakeFiles/decimator.dir/assignment_code/decimator/simplification/Triangulation.cpp.s
-.PHONY : assignment_code/decimator/simplification/Triangulation.cpp.s
 
 assignment_code/decimator/simplification/VertexClustering.o: assignment_code/decimator/simplification/VertexClustering.cpp.o
 .PHONY : assignment_code/decimator/simplification/VertexClustering.o
@@ -1286,6 +1286,9 @@ help:
 	@echo "... assignment_code/decimator/MeshSimplifierNode.o"
 	@echo "... assignment_code/decimator/MeshSimplifierNode.i"
 	@echo "... assignment_code/decimator/MeshSimplifierNode.s"
+	@echo "... assignment_code/decimator/RegionSimplifier.o"
+	@echo "... assignment_code/decimator/RegionSimplifier.i"
+	@echo "... assignment_code/decimator/RegionSimplifier.s"
 	@echo "... assignment_code/decimator/WireframeRenderer.o"
 	@echo "... assignment_code/decimator/WireframeRenderer.i"
 	@echo "... assignment_code/decimator/WireframeRenderer.s"
@@ -1298,9 +1301,6 @@ help:
 	@echo "... assignment_code/decimator/simplification/SimplificationMesh.o"
 	@echo "... assignment_code/decimator/simplification/SimplificationMesh.i"
 	@echo "... assignment_code/decimator/simplification/SimplificationMesh.s"
-	@echo "... assignment_code/decimator/simplification/Triangulation.o"
-	@echo "... assignment_code/decimator/simplification/Triangulation.i"
-	@echo "... assignment_code/decimator/simplification/Triangulation.s"
 	@echo "... assignment_code/decimator/simplification/VertexClustering.o"
 	@echo "... assignment_code/decimator/simplification/VertexClustering.i"
 	@echo "... assignment_code/decimator/simplification/VertexClustering.s"
